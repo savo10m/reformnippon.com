@@ -1,0 +1,138 @@
+.header{
+    height: 120px;
+    color: white;
+    background-color: red;
+}
+.header-logo{
+    float: left;
+}
+li{
+    font-size: 25px;
+    padding: 35px 45px 25px 15px;
+    list-style: none;
+    float: left;
+}
+.main{
+    background-color: white;
+    height: 2000px;
+}
+.footer{
+    height: 200px;
+    padding: 40px 0px 0px 0px;
+    background-color: rgb(162, 167, 184);
+}
+.footer-logo{
+    float: left;
+    padding: 0px 0px 0px 10px;
+}
+.footer-list{
+    padding: 0px 20px 30px 30px;
+    float: left;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+.h1-1{
+    font-size: 55px;
+    background-color: yellow;
+    color: black;
+    bottom: 150px;
+}
+.p-1-1{
+    font-family: serif;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    top: 150px;
+}
+.p-1-1 span{
+    color: yellow;
+}
+.news-list{
+    list-style: none outside;
+    margin: 0;
+    padding: 0;
+  }
+  .news-list .item a{
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #CCC;
+    padding: 20px 20px;
+  }
+  .news-list .item:first-child a{
+    border-top: 1px solid #CCC;
+  }
+  .news-list .item .date{
+    margin: 0;
+    min-width: 140px;
+    font-size: 16px;
+    color: #999;
+    padding: 0 20px 0 0;
+  }
+  .news-list .item .category{
+    margin: 0;
+    min-width: 140px;
+    padding: 0 20px 0 0;
+  }
+  .news-list .item .category span{
+    background: #999;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 12px;
+    line-height: 1;
+  }
+  .news-list .item .title{
+    margin: 0;
+    width: 100%;
+  }
+  .news-list .item a:hover .title{
+    color: #00F;
+  }
+  
+  @media screen and (max-width: 767px){
+  .news-list .item a{
+    flex-wrap: wrap;
+  }
+  .news-list .item .date{
+    min-width: 100px;
+  }
+  .news-list .item .title{
+    margin-top: 10px;
+  }
+  }
+  
+  /* 装飾 */
+   
+  *{
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+  body{
+    margin: 20px;
+  }
+.img-1{
+    size: 200px;
+    float: left;
+}
+.p-1-2{
+    font-size: 20px;
+    float: left;
+    float: right;
+}
+.a-1{
+    color: white;
+    font-size: 40px;
+    float: right;
+    float: left;
+    margin: 60px;
+    text-decoration: none;
+    background-color: #333;
+}
